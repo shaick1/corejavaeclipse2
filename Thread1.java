@@ -1,7 +1,7 @@
 public class Thread1 extends Thread {
 
     public void run() {
-        for (int i=0;i<10;i++) {
+        for (int i=0;i<8;i++) {
             System.out.println("Current i is "+i);
             try{
                 Thread.sleep(1000);
